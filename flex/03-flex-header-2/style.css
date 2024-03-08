@@ -9,6 +9,9 @@ body {
 }
 
 .header {
+  display: flex;
+  padding: 8px;
+  align-items: center;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -28,6 +31,11 @@ body {
   font-weight: 900;
   font-style: italic;
 }
+.right-side {
+  gap: 16px;
+  display: flex;
+  margin-left: auto;
+}
 
 button {
   border: none;
@@ -44,5 +52,8 @@ a {
 }
 
 ul {
+  display: flex;
+  padding-left: 16px;
+  gap: 16px;
   list-style-type: none;
 }
